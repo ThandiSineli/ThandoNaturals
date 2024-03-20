@@ -12,8 +12,9 @@ config();
 const app = express();
 
 
-app.use(cors({'https://thandonaturals.web.app'}
-));
+app.use(cors({
+  origin:'https://thandonaturals.web.app'
+}));
 
 
 app.use(express.json());
