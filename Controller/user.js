@@ -5,7 +5,7 @@ import {
   deleteuser,
   updateuser,
 } from '../models/database.js';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 // Add a user
  const addUser = async (req, res) => {

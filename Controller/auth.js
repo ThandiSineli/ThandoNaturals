@@ -1,5 +1,5 @@
 import { checkuser } from '../models/database.js';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 // Authenticate user
  const authenticateUser = async (req, res, next) => {

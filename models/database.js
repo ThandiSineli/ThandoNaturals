@@ -1,5 +1,5 @@
 import { pool } from '../Config/config.js';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 // Items logic
 
